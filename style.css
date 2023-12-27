@@ -126,8 +126,12 @@ body{
     justify-content: center;
 }
 #inner-circle span{
-margin: 0;
-color: white; /* Set the color of the text */
-    font-family: 'Carattere', cursive; /* Use the custom font */
-    font-size: 40px;
+  margin: 0;
+  color: white;
+  font-family: 'Carattere', cursive;
+  font-size: 40px;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
 }
