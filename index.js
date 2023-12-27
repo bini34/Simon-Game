@@ -3,6 +3,7 @@ let gamePattern = [];
 let userClickedPattern = [];
 let started = false;
 let level = 0;
+let highScore = 0;
 
 $("#inner-inner-circle").click(function(){
     if (!started){
@@ -46,6 +47,7 @@ function checkAnswer(currentLevel) {
       }, 200);
 
       $("#level-title").text("Game Over, Press Any Key to Restart");
+      startOver();
     }
 
 }
@@ -74,4 +76,10 @@ function animatePress(currentColour){
     setTimeout(function(){
         $("#" + currentColour).removeClass('pressed');
       }, 100);
+}
+
+function startOver(){
+    level = 0;
+    gamePattern = [];
+    started = false;
 }

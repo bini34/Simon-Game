@@ -64,14 +64,14 @@ body{
     height: 500px;
     width: 500px;
     position: relative;
-    border-style: solid ;
-    border-width: 15px ;
-    border-color: #10466E;
+    border-left: 15px solid #10466E;
+    border-right: 15px solid #10466E;
+    border-bottom: 15px solid #10466E;
     margin: auto;
     margin-top: 60px;
-    box-shadow: 1px 0 5px   #ffffff,
-    15px 0   #888888,
-    0 15px   #888888;
+    box-shadow: 1px 0 5px   #002438,
+    15px 0   #002438,
+    0 15px   #002438;
 }
   
   #yellow {
@@ -92,6 +92,7 @@ body{
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
   }
+  
   #red {
     position: absolute;
     height: 250px;
@@ -128,8 +129,7 @@ body{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-  }
-  
+  } 
   #orange {
     position: absolute;
     height: 250px;
