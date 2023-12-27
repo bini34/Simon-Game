@@ -39,14 +39,19 @@ body{
   left: 10px;
   top: 10px;
 }
+.level img{
+  display: flex;
+  position: relative;
+}
 .level span{
   display: flex;
   position: relative;
   color: #07406D;
   font-size: 25px;
-  padding: 0 20px 0 20px;
+  padding: 0 25px 0 25px;
   background-color: #D6E7EE;
   border-radius: 20%;
+  right: 15px;
 }
 .minute{
   display: flex;
