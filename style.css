@@ -1,6 +1,57 @@
 body{
     text-align: center;
-    background-color: #23577E;
+    background-color: #24587F;
+}
+.header {
+  background-color: #BDDBE5;
+  width: 350px;
+  height: 50px;
+  border-radius: 20%;
+  position: relative;
+  margin: auto;
+  overflow: visible;
+  right: 125px;
+  top: 25px;
+}
+.big-circle {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  border-radius: 50%;
+  margin: auto;
+  background-color: #BDDBE5;
+  overflow: visible;
+}
+.small-circle{
+  height: 75px;
+  width: 75px;
+  position: relative;
+  border-radius: 50%;
+  margin: auto;
+  background-color: #A5E0E7;
+  overflow: visible;
+  border: 5px solid white;
+  top: -46px;
+}
+.level{
+  display: flex;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.level span{
+  display: flex;
+  position: relative;
+  color: #07406D;
+  font-size: 25px;
+  padding: 0 20px 0 20px;
+  background-color: #D6E7EE;
+  border-radius: 20%;
+}
+.minute{
+  display: flex;
+  position: relative;
+  right: 0;
 }
 #outer-circle {
     background: #385a94;
@@ -16,7 +67,7 @@ body{
     box-shadow: 1px 0 5px   #ffffff,
     15px 0   #888888,
     0 15px   #888888;
-  }
+}
   
   #yellow {
     position: absolute;
@@ -97,8 +148,8 @@ body{
     position: absolute;
     background: #10466E;
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -111,13 +162,13 @@ body{
 
 #inner-inner-circle {
     position: absolute;
-    background: #024562; /* Color of the inner inner circle */
+    background: #024562;
     border-radius: 50%;
     border-style: solid;
     border-width: 10px;
     border-color: #01507B;
-    height: 150px; /* Adjust the height of the inner inner circle */
-    width: 150px; /* Adjust the width of the inner inner circle */
+    height: 200px;
+    width: 200px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -127,9 +178,9 @@ body{
 }
 #inner-circle span{
   margin: 0;
-  color: white;
+  color: #D5E8EB;
   font-family: 'Carattere', cursive;
-  font-size: 40px;
+  font-size: 70px;
 }
 .pressed {
   box-shadow: 0 0 20px white;
