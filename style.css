@@ -9,6 +9,7 @@ body{
   border-radius: 20%;
   position: relative;
   margin: auto;
+  margin-top: 30px;
   overflow: visible;
   right: 125px;
   top: 25px;
@@ -39,24 +40,21 @@ body{
   left: 10px;
   top: 10px;
 }
-.level img{
-  display: flex;
-  position: relative;
+.level span img{
+  padding-right: 15px;
 }
 .level span{
   display: flex;
   position: relative;
   color: #07406D;
   font-size: 25px;
-  padding: 0 25px 0 25px;
+  padding-right: 10px;
   background-color: #D6E7EE;
   border-radius: 20%;
-  right: 15px;
 }
 .minute{
   display: flex;
-  position: relative;
-  right: 0;
+
 }
 #outer-circle {
     background: #385a94;
@@ -68,8 +66,8 @@ body{
     border-right: 15px solid #10466E;
     border-bottom: 15px solid #10466E;
     margin: auto;
-    margin-top: 60px;
-    box-shadow: 1px 0 5px   #002438,
+    margin-top: 30px;
+    box-shadow: 10px 0  #10466E,
     15px 0   #002438,
     0 15px   #002438;
 }
@@ -92,7 +90,7 @@ body{
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
   }
-  
+
   #red {
     position: absolute;
     height: 250px;
