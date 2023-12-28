@@ -3,11 +3,9 @@ let gamePattern = [];
 let userClickedPattern = [];
 let started = false;
 let level = 0;
-let highScore = 0;
-
 $("#inner-inner-circle").click(function(){
     if (!started){
-        $("#level-title").text("Level" + level);
+       $("#level-title").text("Level" + level);
         nextSequence();
         started = true;
     }
