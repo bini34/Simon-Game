@@ -7,7 +7,7 @@ let highScore = 0;
 
 $("#inner-inner-circle").click(function(){
     if (!started){
-        $("#level-title").text(level);
+        $("#level-title").text("Level" + level);
         nextSequence();
         started = true;
     }
@@ -53,7 +53,7 @@ function checkAnswer(currentLevel) {
 function nextSequence(){
     userClickedPattern = [];
     level++;
-    $("#level-title").text(level);
+    $("#level-title").text("Level " + level);
 
 
     let randomNumber = Math.floor(Math.random() * (3 - 0 + 1 ));
