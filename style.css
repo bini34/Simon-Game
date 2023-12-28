@@ -2,7 +2,7 @@ body{
     text-align: center;
     background-color: #24587F;
 }
-.header {
+/* .header {
   background-color: #BDDBE5;
   width: 350px;
   height: 50px;
@@ -55,6 +55,12 @@ body{
 .minute{
   display: flex;
 
+} */
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
 }
 #outer-circle {
     background: #385a94;

@@ -7,7 +7,7 @@ let highScore = 0;
 
 $("#inner-inner-circle").click(function(){
     if (!started){
-        $(".level span").text(level);
+        $("#level-title").text(level);
         nextSequence();
         started = true;
     }
@@ -21,7 +21,6 @@ $(".btn").click(function() {
     animatePress(userChosenColour);
 
     checkAnswer(userClickedPattern.length-1);
-
 })
 
 function checkAnswer(currentLevel) {
